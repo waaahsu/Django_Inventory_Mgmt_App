@@ -1,0 +1,65 @@
+body {
+background-color: #34eb6b;
+}
+
+/*Align the title to the center of the page*/
+
+.table{
+	font-size: 15px;
+	text-align: center;
+	width: 95%;
+	margin: auto;
+	
+}
+
+/*Make alternating colors for the table rows*/
+.table tr:nth-child(odd){
+	background: floralwhite;
+}
+
+.table tr:nth-child(even){
+	background: greenyellow;
+}
+
+th{
+  background-color: #337ab7;
+  color: ghostwhite;
+}
+
+
+.display_table{
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	/*border-bottom-left-radius: 20px;*/
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	box-shadow: 8px 8px 15px 6px #2e6da4;
+}
+
+.header {
+    font-family: helvetica;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 2px 2px #c9c6c6;
+    display: block;
+    font-weight: bold;
+}
+
+.delete_img {
+	width=10px
+    height=10px
+}
+
+.success{
+     list-style: none;
+     background-color: #2e6da4;
+     color: white;
+     box-shadow: 12px 12px 12px #e61c66;
+     text-align: center;
+ }
